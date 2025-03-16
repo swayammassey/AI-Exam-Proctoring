@@ -67,7 +67,6 @@ _Add screenshots here_
 
 ## 👨‍💻 Contributors  
 💡 **Swayam Massey**  
-💡 **[Your Team Members]**  
 
 🙌 *Want to contribute? Feel free to open a pull request!*  
 
