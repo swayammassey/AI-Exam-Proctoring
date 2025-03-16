@@ -1,54 +1,77 @@
-AI Exam Proctoring System
-📌 Overview
-The AI Exam Proctoring System is designed to monitor students during online exams using AI-powered techniques such as face detection, eye tracking, and object detection. It helps ensure exam integrity by preventing cheating and unauthorized activities.
+# 🛡️ AI Exam Proctoring System  
 
-🚀 Features
-🔍 Face Detection – Identifies the student appearing for the exam.
-👀 Eye Tracking – Detects if the student is looking away from the screen.
-📸 Screenshot Capture – Takes periodic snapshots for monitoring.
-🎤 Audio Analysis – Detects background noises or multiple voices.
-🛑 Cheating Alerts – Flags suspicious activities for review.
-🛠️ Tech Stack
-Python 🐍
-OpenCV – Image processing
-Mediapipe – Face and eye tracking
-TensorFlow/PyTorch – AI models
-Flask/Django (Optional) – Web-based proctoring system
-🔧 Installation
-Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/swayammassey/AI-Exam-Proctoring.git
-cd AI-Exam-Proctoring
-Create a Virtual Environment (Recommended)
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate   # On Mac/Linux
-venv\Scripts\activate      # On Windows
-Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-🖥️ Usage
-bash
-Copy
-Edit
-python main.py
-This will start the proctoring system and begin monitoring the exam environment.
+📌 **An AI-powered solution for monitoring online exams with real-time face tracking, voice detection, and cheating prevention.**  
 
-📷 Sample Screenshots
-Add some sample images or GIFs here to show how the system works.
+---
 
-📌 Future Enhancements
-Live proctoring via a web dashboard
-AI-based voice detection for speech monitoring
-Automatic cheating report generation
-🤝 Contributing
-Contributions are welcome! Feel free to fork this repository and submit a pull request.
+## 📜 Table of Contents  
+- 🚀 [Features](#features)  
+- 🔧 [Installation](#installation)  
+- 📷 [Screenshots](#screenshots)  
+- 🛠 [Technologies Used](#technologies-used)  
+- 📌 [How It Works](#how-it-works)  
+- 👨‍💻 [Contributors](#contributors)  
+- 📜 [License](#license)  
 
-📜 License
-This project is licensed under the MIT License.
+---
+
+## 🚀 Features  
+✔️ Real-time face tracking with OpenCV  
+✔️ Speech and noise detection to prevent cheating  
+✔️ Automatic warning system for suspicious behavior  
+✔️ Secure authentication using AI  
+✔️ User-friendly interface for students and instructors  
+
+---
+
+## 🔧 Installation  
+
+```bash
+# Clone the repository
+git clone https://github.com/swayammassey/AI-Exam-Proctoring.git  
+
+# Navigate to the project folder
+cd AI-Exam-Proctoring  
+
+# Install dependencies
+pip install -r requirements.txt  
+
+# Run the application
+python main.py  
+```
+
+---
+
+## 📷 Screenshots  
+
+_Add screenshots here_  
+
+---
+
+## 🛠 Technologies Used  
+- **Python** 🐍  
+- **OpenCV** 🎥  
+- **Mediapipe** 🖐️  
+- **TensorFlow/Keras** 🧠  
+- **Flask** 🌍  
+
+---
+
+## 📌 How It Works  
+1. The system detects and tracks the user's face during an exam.  
+2. It monitors background noise and movement.  
+3. If any suspicious activity is detected, a warning is triggered.  
+4. The instructor gets a real-time report of any violations.  
+
+---
+
+## 👨‍💻 Contributors  
+💡 **Swayam Massey**  
+💡 **[Your Team Members]**  
+
+🙌 *Want to contribute? Feel free to open a pull request!*  
+
+---
+
+## 📜 License  
+📄 This project is licensed under the **MIT License**.  
